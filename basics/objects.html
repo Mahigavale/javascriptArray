@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jsobjctes</title>
+</head>
+<body>
+    <script>
+
+// remember to declare the object with the keyword constant.
+//you can add, change the members of objects but cannot 
+//reinitialize it.
+
+/* 
+remember the thing that you can declare the functions/methods in the 
+object of the js. ofcourse the js stores the function as the property.
+the property is nothing but [name:"value"]
+so to decalre a function in the js:
+
+const person={
+    name:abs,
+    age:123,
+    city:pune,
+    getcity:function()
+    {
+        return this.city;
+    }
+}
+but there is a catch while calling the function call/invoke it as
+
+console.log(person.getcity());
+and not the console.log(person.getcity)
+
+
+
+*/
+ const school={name:"sggs",
+               location:"nanded",
+               strength:1234,
+               director:"dr.Joshi",
+               getdirector: function()
+               {
+                return this.director;
+               },
+               getcollegename:function(){
+                return this.name;
+               }
+            }
+        </script>
+        <h1 id="demo" style="background-color: red;"></h1>
+        <h1 id="demo2" style="background-color: yellow;"></h1>
+        <button type="button" onclick="document.getElementById('demo').innerHTML=school.getdirector()">click_to_fetch_info</button><br>
+        <button type="button" onclick="document.getElementById('demo2').innerHTML=school.getcollegename()">click_to_fetch_college</button>
+</body>
+</html>
