@@ -31,7 +31,7 @@ const appa={
     email:'shri@gmail.com',
     contact:1234567890123,
     village:'khed',
-    height:123
+    height:123 
 }
 
 function myfunction(p1,p2)
