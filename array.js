@@ -62,9 +62,20 @@ console.log(a1);
 // concat - concates the end array to the end of the
 //first array. and gives the end array that we can use as variable
 
-let arr2=[1,2,3,4,5,6,7]
+let arr2=[1,2,3,4,5,6,7,18,21,45]
 let arr3=[8,9,0]
 
-console.log(arr2.concat(arr3));
-console.log(arr2);
-console.log(arr3);
+// console.log(arr2.concat(arr3));
+// console.log(arr2);
+// console.log(arr3);
+console.log(arr2.indexOf(3));
+//console.log(arr2.LastindexOf(3));
+console.log(arr2.lastIndexOf(3));
+ function checkeligible(age)
+ {
+    if (age >=18)
+    
+    return "you are eligible to vote !"
+    
+ }
+console.log(arr2.find(checkeligible));
