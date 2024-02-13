@@ -15,24 +15,25 @@ the new array.
 array  can be defined as the predefined class/function in js.
 */
 
-let arr=new Array('mahesh','dada','ullu','moon');
+//let arr=new Array('mahesh','dada','ullu','moon');
 /*
 if we declare let arr=('mahesh','gavale');
 here it will take the gavale as only one 
 */
 
-let arr1=['akshay','doob','ollop']
-for(let i=0;i<arr.length;i++)
-{
- console.log(arr[i]);
-}
+// let arr1=['akshay','doob','ollop']
+// for(let i=0;i<arr.length;i++)
+// {
+//  console.log(arr[i]);
+// }
 
-console.log("****************************************************");
-
+//console.log("****************************************************");
+/*
 for(let i=0;i<arr1.length;i++)
 {
     console.log(arr1[i]);
 }
+*/
 
 /* array methods.... in js */
 // length is the total size of the array.
@@ -48,11 +49,22 @@ for(let i=0;i<arr1.length;i++)
 //  console.log(arr3);
 
 
-var a1=new Array(1,2,3,4);
+/*var a1=new Array(1,2,3,4);
 
 console.log(a1.shift());  //shift is used to remove the elements.
 console.log(a1);
 
 console.log(a1.unshift(23));
 console.log(a1);
+*/
 
+//more methods on the arrays.
+// concat - concates the end array to the end of the
+//first array. and gives the end array that we can use as variable
+
+let arr2=[1,2,3,4,5,6,7]
+let arr3=[8,9,0]
+
+console.log(arr2.concat(arr3));
+console.log(arr2);
+console.log(arr3);
