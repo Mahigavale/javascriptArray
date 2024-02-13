@@ -18,3 +18,8 @@ function desc(a,b)
 
 }
 console.log("descending:",number.sort(desc));
+console.log("descending:");
+console.table(number.sort(desc));
+
+
+//iteration
