@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adjacent_Number</title>
+</head>
+<body>
+  <h3>The program to find adjacent letter in the array.</h3>  
+
+ <input  id="user" value="1">
+ <button type="button"  onclick="document.getElementById('after').innerHTML=arr.find(myfunction)">Clickhere!</button>
+
+ <h4 id="after">default</h4>
+
+
+
+  <script>
+    let arr=[1,2,3,4,5,6,7,8,9,10]
+    function myfunction(character)
+    {
+        if(character>document.getElementById("user").value)
+        return character;
+
+    }
+  </script>
+</body>
+</html>
