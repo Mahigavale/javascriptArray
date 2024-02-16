@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name_validation</title>
+</head>
+<body>
+    <h4>The program to validate the user name:</h4>
+    <h6>Please enter the name to validate:</h6>
+    <input id="user-name"  value="">
+
+    <button type="button" onclick="document.getElementById('demo8').innerHTML=users.forEcah(myfunction)">Pass_Value</button>
+    <p id="demo8"></p>
+    <script>
+        let users=[{
+        name:'mahi',
+        number:773727272727
+        },{
+        name:'abhi',
+        number:67676767878
+        },{
+        name:'dada',
+        number:7978909878
+        }]
+      
+      //  let namme= document.getElementById('user-name').value;
+function myfunction(users)
+    {
+    if(users.name==document.getElementById('user-name').value)
+    {
+        return(JSON.stringify(users));
+        
+    }
+     
+    else
+    {
+        return ("the user is not registered");
+    }
+}
+
+    </script>
+    
+</body>
+</html>
