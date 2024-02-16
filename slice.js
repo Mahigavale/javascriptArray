@@ -25,3 +25,9 @@ for(v=0;v<chars.length;v++)
 
 let result=chars.slice(ind,chars.length);
 console.log(result);
+//remember here that the original array remains undaunted.
+//we get a different array with the given condition.
+//we do not update the array in the slice operation.
+//we cannot add new elements and remove elements from the or-
+//ginal array.
+// for that purpose we use the splice method.....!!!node
