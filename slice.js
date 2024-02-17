@@ -30,4 +30,10 @@ console.log(result);
 //we do not update the array in the slice operation.
 //we cannot add new elements and remove elements from the or-
 //ginal array.
-// for that purpose we use the splice method.....!!!node
+// for that purpose we use the splice method.....!!!
+
+
+ let arr4=["a","b","c","d","e","f","g","h","i","j"];
+
+ let arr5=arr4.slice(1,4);
+ console.log(arr5);
